@@ -1,0 +1,114 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f5f1;
+    color: #2e3d2f;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    background: #2e7d32 url('https://source.unsplash.com/1600x900/?nature') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    background-color: #fff;
+    color: #2e7d32;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #c8e6c9;
+}
+
+/* Seções */
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Benefícios */
+.benefits-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    background-color: #fff;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    padding: 30px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estatísticas */
+#statistics {
+    background-color: #f9f9f9;
+}
+
+.stats-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+    font-size: 4rem;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
